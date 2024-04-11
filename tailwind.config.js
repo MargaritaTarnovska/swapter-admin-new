@@ -10,7 +10,25 @@ export default {
       '2xl': '1440px',
       '3xl': '1920px',
     },
-    extend: {},
+    extend: {
+      color: {
+        'error-primary': '#F04438',
+      },
+      backgroundColor: {
+        'brand-background': '#111322',
+        'brand-secondary': '#7839EE',
+        'alpha-white-90': '#0C111DE5',
+        tertiary: '#1F242F',
+        'error-primary': '#F04438',
+        primary: '#0C111D',
+      },
+      borderColor: {
+        primary: '#333741',
+      },
+      textColor: {
+        'primary-900': '#F5F5F6',
+      },
+    },
   },
   plugins: [],
 };

@@ -20,17 +20,20 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
+    "baseUrl": "./",
     "paths": {
       "@api/*": ["./src/shared/api/*"],
       "@assets/*": ["./src/shared/assets/*"],
+      "@jsx-icons/*": ["./src/shared/assets/jsx-icons/*"],
       "@components/*": ["./src/shared/components/*"],
       "@constants/*": ["./src/shared/constants/*"],
+      "@layouts/*": ["./src/shared/layout/*"],
       "@hooks/*": ["./src/shared/hooks/*"],
       "@util/*": ["./src/shared/util/*"],
       "@modules/*": ["./src/shared/modules/*"],
       "@queries/*": ["./src/shared/queries/*"],
       "@types/*": ["./src/shared/types/*"],
-      "@styles/*": ["./src/styles/*"],
+      "@styles/*": ["./src/styles/*"]
     },
 
     "allowJs": true,
