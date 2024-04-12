@@ -1,6 +1,7 @@
 import React from 'react';
 
 import '@styles/index.css';
+import { BaseLayout } from '@layouts/base.layout.tsx';
 import { queryClient } from '@queries/queryClient.ts';
 import dayjs from 'dayjs';
 import duration from 'dayjs/plugin/duration';
@@ -19,7 +20,9 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <BrowserRouter>
       <QueryClientProvider client={queryClient}>
-        <App />
+        <BaseLayout>
+          <App />
+        </BaseLayout>
         <ToastContainer />
       </QueryClientProvider>
     </BrowserRouter>

@@ -25,7 +25,7 @@ export const getSideBarList = () => {
     { icon: <DashboardIcon />, key: 'dashboard', title: 'Dashboard' },
     {
       icon: <HistoryIcon />,
-      key: '/history',
+      key: '/history/overview',
       list: [
         { icon: <OverviewIcon />, key: '/history/overview', title: 'Overview' },
         { icon: <SwapsIcon />, key: '/history/swaps', title: 'Swaps' },
@@ -41,7 +41,7 @@ export const getSideBarList = () => {
     },
     {
       icon: <UsersIcon />,
-      key: '/users',
+      key: '/users/overview',
       list: [
         { icon: <OverviewIcon />, key: '/users/overview', title: 'Overview' },
         { icon: <ByActivityIcon />, key: '/users/by-activity', title: 'By activity' },
@@ -53,7 +53,7 @@ export const getSideBarList = () => {
     },
     {
       icon: <PartnersIcon />,
-      key: '/partners',
+      key: '/partners/overview',
       list: [
         { icon: <OverviewIcon />, key: '/partners/overview', title: 'Overview' },
         { icon: <SwitchHorizontalIcon />, key: '/partners/exchanges', title: 'Exchanges' },

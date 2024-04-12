@@ -28,9 +28,9 @@ export const HeaderComponent = () => {
           </div>
         ))}
       </nav>
-      <div>
+      <div className="flex items-stretch justify-end">
         <InputSearchComponent />
-        <div className="w-10 h-10 bg-tertiary flex items-center justify-center rounded-md cursor-pointer relative">
+        <div className="w-11 h-11 bg-tertiary flex items-center justify-center rounded-md cursor-pointer relative ml-2">
           <BellIcon />
           <p className="absolute top-1.5 right-1.5 text-[8px] text-white rounded-full bg-error-primary h-3 min-w-3 text-center">
             3

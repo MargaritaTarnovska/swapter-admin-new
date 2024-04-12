@@ -32,7 +32,7 @@
       "@util/*": ["./src/shared/util/*"],
       "@modules/*": ["./src/shared/modules/*"],
       "@queries/*": ["./src/shared/queries/*"],
-      "@types/*": ["./src/shared/types/*"],
+      "types/*": ["./src/shared/types/*"],
       "@styles/*": ["./src/styles/*"]
     },
 

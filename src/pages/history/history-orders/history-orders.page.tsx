@@ -3,11 +3,11 @@ import { HistoryTopStatisticsModule } from '@modules/history-top-statistic/histo
 
 import { statisticList } from '../history-overview/history-overview.page.tsx';
 
-export const HistoryBridgePage = () => {
+export const HistoryOrdersPage = () => {
   return (
     <div className="p-10">
-      <TitlePageComponent>Bridge</TitlePageComponent>
-      <HistoryTopStatisticsModule title="Bridge statistics" statisticList={statisticList} />
+      <TitlePageComponent>Orders</TitlePageComponent>
+      <HistoryTopStatisticsModule title="Orders statistics" statisticList={statisticList} />
     </div>
   );
 };

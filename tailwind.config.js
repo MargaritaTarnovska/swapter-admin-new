@@ -21,12 +21,17 @@ export default {
         tertiary: '#1F242F',
         'error-primary': '#F04438',
         primary: '#0C111D',
+        active: '#1F242F',
       },
       borderColor: {
         primary: '#333741',
+        secondary: '#1F242F',
       },
       textColor: {
         'primary-900': '#F5F5F6',
+        'tertiary-600': '#94969C',
+        'secondary-700': '#CECFD2',
+        'brand-primary-900': '#7839EE',
       },
     },
   },

@@ -6,11 +6,15 @@ import { SidebarModule } from '@modules/sidebar/sidebar.module.tsx';
 export const BaseLayout: FC<IPropsBaseLayout> = ({ children }) => {
   return (
     <div className="bg-brand-background w-full h-full min-h-screen flex items-start">
-      <img src="/img/bg/global-bg.png" alt="" className="absolute z-0 w-full h-full" />
+      <img
+        src="/img/bg/global-bg.png"
+        alt=""
+        className="absolute z-0 w-full h-full bg-cover bg-no-repeat"
+      />
       <SidebarModule />
       <div className="w-full">
         <HeaderComponent />
-        <div className="z-50">{children}</div>
+        <div className="z-50 relative">{children}</div>
       </div>
     </div>
   );
